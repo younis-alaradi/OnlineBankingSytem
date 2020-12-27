@@ -133,16 +133,6 @@ namespace OnlineBanking_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bank_1300155_1280 {
-            get {
-                object obj = ResourceManager.GetObject("bank-1300155_1280", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap business_presentation {
             get {
                 object obj = ResourceManager.GetObject("business-presentation", resourceCulture);
@@ -253,26 +243,6 @@ namespace OnlineBanking_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap credit_card_1211409_1920 {
-            get {
-                object obj = ResourceManager.GetObject("credit-card-1211409_1920", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap credit_card_1369111_1280 {
-            get {
-                object obj = ResourceManager.GetObject("credit-card-1369111_1280", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap debit_card {
             get {
                 object obj = ResourceManager.GetObject("debit-card", resourceCulture);
@@ -326,16 +296,6 @@ namespace OnlineBanking_System.Properties {
         internal static System.Drawing.Bitmap exit__1_ {
             get {
                 object obj = ResourceManager.GetObject("exit (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap exit__2_ {
-            get {
-                object obj = ResourceManager.GetObject("exit (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -426,16 +386,6 @@ namespace OnlineBanking_System.Properties {
         internal static System.Drawing.Bitmap knowledge {
             get {
                 object obj = ResourceManager.GetObject("knowledge", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap kyc {
-            get {
-                object obj = ResourceManager.GetObject("kyc", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -596,16 +546,6 @@ namespace OnlineBanking_System.Properties {
         internal static System.Drawing.Bitmap settings {
             get {
                 object obj = ResourceManager.GetObject("settings", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap settings__1_ {
-            get {
-                object obj = ResourceManager.GetObject("settings (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -786,16 +726,6 @@ namespace OnlineBanking_System.Properties {
         internal static System.Drawing.Bitmap wifi {
             get {
                 object obj = ResourceManager.GetObject("wifi", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap yes {
-            get {
-                object obj = ResourceManager.GetObject("yes", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

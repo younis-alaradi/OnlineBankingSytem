@@ -352,7 +352,7 @@ namespace OnlineBanking_System
             this.Operator_label.ForeColor = System.Drawing.SystemColors.ButtonShadow;
             this.Operator_label.Location = new System.Drawing.Point(55, 20);
             this.Operator_label.Name = "Operator_label";
-            this.Operator_label.Size = new System.Drawing.Size(0, 25);
+            this.Operator_label.Size = new System.Drawing.Size(0, 20);
             this.Operator_label.TabIndex = 19;
             // 
             // guna2GradientButton18
@@ -919,7 +919,7 @@ namespace OnlineBanking_System
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(179, 36);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Managment Certifcate";
+            this.label2.Text = "Managmenet Certifcate";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // guna2PictureBox2
@@ -961,7 +961,7 @@ namespace OnlineBanking_System
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(179, 36);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Banking Certificate";
+            this.label1.Text = "Bankaing Certifcate";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // guna2PictureBox1
@@ -977,7 +977,6 @@ namespace OnlineBanking_System
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
-            this.toolTip1.SetToolTip(this.guna2PictureBox1, "Coming Soon");
             this.guna2PictureBox1.UseTransparentBackground = true;
             this.guna2PictureBox1.MouseHover += new System.EventHandler(this.guna2PictureBox1_MouseHover);
             // 
@@ -1077,7 +1076,7 @@ namespace OnlineBanking_System
             this.Total_Expenses.ForeColor = System.Drawing.Color.DarkGray;
             this.Total_Expenses.Location = new System.Drawing.Point(546, 622);
             this.Total_Expenses.Name = "Total_Expenses";
-            this.Total_Expenses.Size = new System.Drawing.Size(0, 25);
+            this.Total_Expenses.Size = new System.Drawing.Size(0, 20);
             this.Total_Expenses.TabIndex = 41;
             this.Total_Expenses.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -1090,7 +1089,7 @@ namespace OnlineBanking_System
             this.T_REvenue_Label.ForeColor = System.Drawing.Color.DarkGray;
             this.T_REvenue_Label.Location = new System.Drawing.Point(151, 625);
             this.T_REvenue_Label.Name = "T_REvenue_Label";
-            this.T_REvenue_Label.Size = new System.Drawing.Size(0, 25);
+            this.T_REvenue_Label.Size = new System.Drawing.Size(0, 20);
             this.T_REvenue_Label.TabIndex = 40;
             this.T_REvenue_Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -1416,7 +1415,7 @@ namespace OnlineBanking_System
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonShadow;
             this.label5.Location = new System.Drawing.Point(55, 20);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 25);
+            this.label5.Size = new System.Drawing.Size(0, 20);
             this.label5.TabIndex = 19;
             // 
             // Intro_Panel

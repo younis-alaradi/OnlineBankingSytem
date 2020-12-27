@@ -1,5 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
 using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace OnlineBanking_System
@@ -234,40 +240,11 @@ namespace OnlineBanking_System
 
         private void Exit_bttn_Click(object sender, EventArgs e)
         {
-            var RateMessage = MessageBox.Show("Do you want to rate our application", "Rating", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
-            if (RateMessage == DialogResult.Yes)
+            var msg = MessageBox.Show("Do you want close the app ? ", "Close", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if (msg == DialogResult.Yes) 
             {
-                RatePanel.Visible = true;
-            
-
+                Application.Exit();
             }
-            else if (RateMessage == DialogResult.No)
-            {
-
-                var msg = MessageBox.Show("Do you want close the app ? ", "Close", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
-                if (msg == DialogResult.Yes)
-                {
-                    Application.Exit();
-                }
-            }
-        }
-
-        private void Account_btn_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Account_Status accountant = new Account_Status();
-            accountant.ShowDialog();
-        }
-
-        private void About_btn_Click(object sender, EventArgs e)
-        {
-            AboutForm about = new AboutForm();
-            about.ShowDialog();
-        }
-
-        private void Setting_btn_Click(object sender, EventArgs e)
-        {
-            
         }
     }
 }

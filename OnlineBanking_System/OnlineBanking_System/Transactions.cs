@@ -1,4 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace OnlineBanking_System
@@ -11,12 +18,12 @@ namespace OnlineBanking_System
         }
         //Functions 
 
-        private string get_Name()
+        private string get_Name() 
         {
             return Start_Form.U_Name;
-
+             
         }
-        private int get_Amount()
+        private int get_Amount() 
         {
             return Start_Form.Amount;
         }
@@ -26,14 +33,9 @@ namespace OnlineBanking_System
 
         private void Back_btn_Click(object sender, EventArgs e)
         {
-            var pet = MessageBox.Show("Are You Sure You Want To Close The Transaction Form And Go Back To Main Form???", "Closing Transactions", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
-            if (pet == DialogResult.Yes)
-            {
-                this.Hide();
-                Main_Form Main = new Main_Form();
-                Main.Show();
-            }
-            
+            this.Hide();
+            Main_Form Main = new Main_Form();
+            Main.Show();
         }
 
         private void Transactions_Load(object sender, EventArgs e)
@@ -44,9 +46,7 @@ namespace OnlineBanking_System
             this.moneyTransferTableAdapter.Fill(this.onlineBankingSystemDBDataset1.MoneyTransfer);
             AccountName_label.Text = get_Name();
             Amount_Balance = get_Amount();
-            DateTime_label.Text = DateTime.Now.ToString();
-            R_TransactionBtn.Enabled = false;
-            S_TranscriptButton.Enabled = false;
+            DateTime_label.Text  = DateTime.Now.ToString();
         }
 
         private void Show_Balance_btn_Click(object sender, EventArgs e)
@@ -69,14 +69,14 @@ namespace OnlineBanking_System
                 MessageBox.Show("Empty Amount Box ", "Empty Detected", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 S_AmountTextBox.Focus();
             }
-            else
+            else 
             {
                 if (int.TryParse(S_AmountTextBox.Text, out amount))
                 {
                     try
                     {
                         var msg = MessageBox.Show("Are you sure to transfer " + amount.ToString("c"), "Transfer Manager", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
-                        if (msg == DialogResult.Yes)
+                        if (msg == DialogResult.Yes) 
                         {
                             OnlineBankingSystemDBDataset.MoneyTransferRow Transfer;
                             Transfer = onlineBankingSystemDBDataset1.MoneyTransfer.NewMoneyTransferRow();
@@ -90,27 +90,26 @@ namespace OnlineBanking_System
                             MessageBox.Show("Money transfer successfully", "Transfer Manager", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
                     }
-                    catch (Exception dataentry)
+                    catch (Exception dataentry) 
                     {
                         MessageBox.Show(dataentry.Message, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
 
                 }
-                else
+                else 
                 {
                     MessageBox.Show("Incorrect Amount", "Error Detected", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     S_AmountTextBox.Focus();
                     S_AmountTextBox.SelectAll();
-                    S_TranscriptButton.Enabled = true;
                 }
             }
-
+           
         }
 
         private void S_transactionsBtn_Click(object sender, EventArgs e)
         {
             string Name = get_Name();
-            moneyTransferTableAdapter.Fill_UserResultTransfer(onlineBankingSystemDBDataset1.MoneyTransfer, Name);
+            moneyTransferTableAdapter.Fill_UserResultTransfer(onlineBankingSystemDBDataset1.MoneyTransfer,Name);
             Transition1.ShowSync(TransferDataGridView);
         }
 
@@ -124,7 +123,7 @@ namespace OnlineBanking_System
             else
             {
                 var ser = MessageBox.Show("Do you want clear the box's?", "Clear", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Information);
-                if (ser == DialogResult.Yes)
+                if (ser == DialogResult.Yes) 
                 {
                     S_IBAN_textBox.Text = String.Empty;
                     S_CommentTextBox.Text = String.Empty;
@@ -191,7 +190,6 @@ namespace OnlineBanking_System
                     MessageBox.Show("Incorrect Amount", "Error Detected", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     S_AmountTextBox.Focus();
                     S_AmountTextBox.SelectAll();
-                    R_TransactionBtn.Enabled = true;
                 }
             }
         }
@@ -223,26 +221,5 @@ namespace OnlineBanking_System
             moneyRequestTableAdapter.Fill_UsersREquest(onlineBankingSystemDBDataset.MoneyRequest, Name);
             Transition1.ShowSync(Requst_datagridview);
         }
-
-        private void S_TranscriptButton_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Send Money Transcript:" + "\n" +
-                            "Transcript ID: " + moneyRequestTableAdapter.getsendTranscriptId(onlineBankingSystemDBDataset.MoneyRequest) + "\n" +
-                            "User Name: " + get_Name() + "\n" +
-                            "IBAN Number:  " + moneyRequestTableAdapter.getsendIBAN(onlineBankingSystemDBDataset.MoneyRequest) + "\n" +
-                            "Amount:  " + moneyRequestTableAdapter.getsendAmount(onlineBankingSystemDBDataset.MoneyRequest) + "\n"
-                            );
-        }
-
-        private void R_TranscriptButton_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Request Money Transcript:" + "\n" +
-                            "Transcript ID: " + moneyTransferTableAdapter.getrequestTranscriptID() + "\n" +
-                            "User Name: " + get_Name() + "\n" +
-                            "IBAN Number:  " + moneyTransferTableAdapter.getrequestIBAN(onlineBankingSystemDBDataset.MoneyTransfer) + "\n" +
-                            "Amount:  " + moneyTransferTableAdapter.getrequestAmount(onlineBankingSystemDBDataset.MoneyTransfer) + "\n"
-                            );
-        }
     }
 }
-

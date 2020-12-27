@@ -45,7 +45,7 @@ namespace OnlineBanking_System
             Hide_panel(SignUp_panel);
             //New sign in panel size 
             Hide_panel(SignIn_panel);
-            MessageBox.Show("Hint For Signing As 'Admin' \n Name : admin \n password : adminadmin", "Sign in Note ", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Hint for admin sing in \n Name : admin \n password : adminadmin", "Sign in Note ", MessageBoxButtons.OK, MessageBoxIcon.Information);
             SignIn_panel.Size = new Size(1212, 770);
             Transition.ShowSync(SignIn_panel);
             //show the inner design panel 
@@ -57,7 +57,7 @@ namespace OnlineBanking_System
         private void Exit_pictureBox_Click(object sender, EventArgs e)
         {
            
-            var msg = MessageBox.Show("Are You Want To Close The Application ?", "Closing", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            var msg = MessageBox.Show("Are you sure do you want close application ?", "Closing", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
             //Messagebox to close the form by yesNo button 
             if (msg == DialogResult.Yes)
             { //Exit the app or you can use this.close() ;
@@ -89,7 +89,7 @@ namespace OnlineBanking_System
                 //check inner name box if it's empty
                 if (Signin_NameTextBox.Text == string.Empty)
                 {
-                    MessageBox.Show("Error Empty Textbox", "Empty", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Error empty box", "Empty", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     Signin_NameTextBox.Focus();
                 }
                 else if (signin_PasswordTextBox.Text == string.Empty)
@@ -232,7 +232,6 @@ namespace OnlineBanking_System
             //Display the main form 
             Main.Show();
         }
-
-       
+ 
     }
 }

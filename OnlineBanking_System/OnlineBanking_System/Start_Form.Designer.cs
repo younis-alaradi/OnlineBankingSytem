@@ -514,7 +514,7 @@ namespace OnlineBanking_System
             this.Guest_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Guest_label.Location = new System.Drawing.Point(283, 610);
             this.Guest_label.Name = "Guest_label";
-            this.Guest_label.Size = new System.Drawing.Size(202, 30);
+            this.Guest_label.Size = new System.Drawing.Size(167, 23);
             this.Guest_label.TabIndex = 15;
             this.Guest_label.TabStop = true;
             this.Guest_label.Text = "Sign in as Guest.....";
@@ -535,7 +535,7 @@ namespace OnlineBanking_System
             this.Exit_pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Exit_pictureBox.TabIndex = 14;
             this.Exit_pictureBox.TabStop = false;
-            this.toolTip.SetToolTip(this.Exit_pictureBox, "Will Close The  Application");
+            this.toolTip.SetToolTip(this.Exit_pictureBox, "Close Application");
             this.Exit_pictureBox.UseTransparentBackground = true;
             this.Exit_pictureBox.Click += new System.EventHandler(this.Exit_pictureBox_Click);
             // 
@@ -717,7 +717,7 @@ namespace OnlineBanking_System
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox1.TabIndex = 7;
             this.guna2CirclePictureBox1.TabStop = false;
-            this.toolTip.SetToolTip(this.guna2CirclePictureBox1, "Coming Soon  Linkedin !!!!!!");
+            this.toolTip.SetToolTip(this.guna2CirclePictureBox1, "Goming Soon  Linkedin !!!!!!");
             this.guna2CirclePictureBox1.UseTransparentBackground = true;
             // 
             // CirclePictureBox_StackoverFlow
@@ -733,7 +733,7 @@ namespace OnlineBanking_System
             this.CirclePictureBox_StackoverFlow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.CirclePictureBox_StackoverFlow.TabIndex = 6;
             this.CirclePictureBox_StackoverFlow.TabStop = false;
-            this.toolTip.SetToolTip(this.CirclePictureBox_StackoverFlow, "Coming Soon  Stack overflow !!!!!!");
+            this.toolTip.SetToolTip(this.CirclePictureBox_StackoverFlow, "Goming Soon  Stack overflow !!!!!!");
             this.CirclePictureBox_StackoverFlow.UseTransparentBackground = true;
             // 
             // CirclePictureBox_Google
@@ -749,7 +749,7 @@ namespace OnlineBanking_System
             this.CirclePictureBox_Google.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.CirclePictureBox_Google.TabIndex = 5;
             this.CirclePictureBox_Google.TabStop = false;
-            this.toolTip.SetToolTip(this.CirclePictureBox_Google, "Coming Soon Google  !!!!!!");
+            this.toolTip.SetToolTip(this.CirclePictureBox_Google, "Goming Soon Google  !!!!!!");
             this.CirclePictureBox_Google.UseTransparentBackground = true;
             // 
             // circlePicBox_github
@@ -765,7 +765,7 @@ namespace OnlineBanking_System
             this.circlePicBox_github.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.circlePicBox_github.TabIndex = 4;
             this.circlePicBox_github.TabStop = false;
-            this.toolTip.SetToolTip(this.circlePicBox_github, "Coming Soon github !!!!!!");
+            this.toolTip.SetToolTip(this.circlePicBox_github, "Goming Soon github !!!!!!");
             this.circlePicBox_github.UseTransparentBackground = true;
             // 
             // label3

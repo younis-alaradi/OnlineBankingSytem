@@ -47,7 +47,6 @@ namespace OnlineBanking_System
             this.Transactions_btn = new Guna.UI2.WinForms.Guna2Button();
             this.Account_btn = new Guna.UI2.WinForms.Guna2Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.Setting_btn = new Guna.UI2.WinForms.Guna2PictureBox();
             this.Exit_btn = new Guna.UI2.WinForms.Guna2PictureBox();
             this.Back_btn = new Guna.UI2.WinForms.Guna2PictureBox();
             this.Left_btn = new Guna.UI2.WinForms.Guna2CirclePictureBox();
@@ -70,9 +69,6 @@ namespace OnlineBanking_System
             this.changeFontColorToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.changeFontStyleToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.changeFontColorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.RatePanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2RatingStar1 = new Guna.UI2.WinForms.Guna2RatingStar();
             this.step5_pic = new Guna.UI2.WinForms.Guna2PictureBox();
             this.step4_pic = new Guna.UI2.WinForms.Guna2PictureBox();
             this.step_3_pic = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -86,7 +82,6 @@ namespace OnlineBanking_System
             this.Left_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Left_Icon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.icon_image)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Setting_btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Exit_btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Back_btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Left_btn)).BeginInit();
@@ -99,7 +94,6 @@ namespace OnlineBanking_System
             ((System.ComponentModel.ISupportInitialize)(this.Picturebox_2)).BeginInit();
             this.guna2GroupBox1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
-            this.RatePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.step5_pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step4_pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step_3_pic)).BeginInit();
@@ -236,7 +230,7 @@ namespace OnlineBanking_System
             this.Exit_bttn.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Exit_bttn.ForeColor = System.Drawing.Color.White;
             this.Exit_bttn.HoverState.Parent = this.Exit_bttn;
-            this.Exit_bttn.Image = global::OnlineBanking_System.Properties.Resources.exit__2_;
+            this.Exit_bttn.Image = global::OnlineBanking_System.Properties.Resources.exit;
             this.Exit_bttn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.Exit_bttn.ImageSize = new System.Drawing.Size(50, 50);
             this.Exit_bttn.Location = new System.Drawing.Point(3, 697);
@@ -271,7 +265,6 @@ namespace OnlineBanking_System
             this.About_btn.TabIndex = 4;
             this.About_btn.Text = "About";
             this.toolTip1.SetToolTip(this.About_btn, "About application");
-            this.About_btn.Click += new System.EventHandler(this.About_btn_Click);
             // 
             // PaysBill_btn
             // 
@@ -345,25 +338,6 @@ namespace OnlineBanking_System
             this.Account_btn.TabIndex = 1;
             this.Account_btn.Text = "Account Status";
             this.toolTip1.SetToolTip(this.Account_btn, "Account status");
-            this.Account_btn.Click += new System.EventHandler(this.Account_btn_Click);
-            // 
-            // Setting_btn
-            // 
-            this.Setting_btn.BackColor = System.Drawing.Color.Transparent;
-            this.Setting_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Transition2.SetDecoration(this.Setting_btn, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.Transition.SetDecoration(this.Setting_btn, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.Setting_btn.Image = global::OnlineBanking_System.Properties.Resources.settings__1_;
-            this.Setting_btn.Location = new System.Drawing.Point(971, 12);
-            this.Setting_btn.Name = "Setting_btn";
-            this.Setting_btn.ShadowDecoration.Parent = this.Setting_btn;
-            this.Setting_btn.Size = new System.Drawing.Size(52, 48);
-            this.Setting_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Setting_btn.TabIndex = 23;
-            this.Setting_btn.TabStop = false;
-            this.toolTip1.SetToolTip(this.Setting_btn, "Open setting form");
-            this.Setting_btn.UseTransparentBackground = true;
-            this.Setting_btn.Click += new System.EventHandler(this.Setting_btn_Click);
             // 
             // Exit_btn
             // 
@@ -415,7 +389,7 @@ namespace OnlineBanking_System
             this.Left_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Left_btn.TabIndex = 8;
             this.Left_btn.TabStop = false;
-            this.toolTip1.SetToolTip(this.Left_btn, "Click Left Button For Collapsing The Panel");
+            this.toolTip1.SetToolTip(this.Left_btn, "Left");
             this.Left_btn.UseTransparentBackground = true;
             this.Left_btn.Visible = false;
             this.Left_btn.Click += new System.EventHandler(this.Left_btn_Click);
@@ -435,7 +409,7 @@ namespace OnlineBanking_System
             this.Right_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Right_btn.TabIndex = 6;
             this.Right_btn.TabStop = false;
-            this.toolTip1.SetToolTip(this.Right_btn, "Click Right For Expanding The Panel");
+            this.toolTip1.SetToolTip(this.Right_btn, "Right");
             this.Right_btn.UseTransparentBackground = true;
             this.Right_btn.Click += new System.EventHandler(this.Right_btn_Click);
             // 
@@ -473,7 +447,6 @@ namespace OnlineBanking_System
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
             this.guna2ShadowPanel1.Size = new System.Drawing.Size(276, 198);
             this.guna2ShadowPanel1.TabIndex = 18;
-            this.toolTip1.SetToolTip(this.guna2ShadowPanel1, "Fact About Online Bankng");
             this.guna2ShadowPanel1.MouseHover += new System.EventHandler(this.guna2ShadowPanel1_MouseHover);
             // 
             // guna2HtmlLabel1
@@ -645,7 +618,7 @@ namespace OnlineBanking_System
             this.label1.ForeColor = System.Drawing.Color.DarkGray;
             this.label1.Location = new System.Drawing.Point(59, 77);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(705, 170);
+            this.label1.Size = new System.Drawing.Size(569, 135);
             this.label1.TabIndex = 0;
             this.label1.Text = resources.GetString("label1.Text");
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -654,12 +627,11 @@ namespace OnlineBanking_System
             // 
             this.Transition2.SetDecoration(this.contextMenuStrip1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.Transition.SetDecoration(this.contextMenuStrip1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.changeFontStyleToolStripMenuItem,
             this.changeFontColorToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(168, 52);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(147, 48);
             // 
             // changeFontStyleToolStripMenuItem
             // 
@@ -667,65 +639,27 @@ namespace OnlineBanking_System
             this.changeFontColorToolStripMenuItem1,
             this.changeFontStyleToolStripMenuItem1});
             this.changeFontStyleToolStripMenuItem.Name = "changeFontStyleToolStripMenuItem";
-            this.changeFontStyleToolStripMenuItem.Size = new System.Drawing.Size(167, 24);
+            this.changeFontStyleToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.changeFontStyleToolStripMenuItem.Text = "Font Property";
             // 
             // changeFontColorToolStripMenuItem1
             // 
             this.changeFontColorToolStripMenuItem1.Name = "changeFontColorToolStripMenuItem1";
-            this.changeFontColorToolStripMenuItem1.Size = new System.Drawing.Size(219, 26);
+            this.changeFontColorToolStripMenuItem1.Size = new System.Drawing.Size(177, 22);
             this.changeFontColorToolStripMenuItem1.Text = "Change Font Color ";
             this.changeFontColorToolStripMenuItem1.Click += new System.EventHandler(this.changeFontColorToolStripMenuItem1_Click);
             // 
             // changeFontStyleToolStripMenuItem1
             // 
             this.changeFontStyleToolStripMenuItem1.Name = "changeFontStyleToolStripMenuItem1";
-            this.changeFontStyleToolStripMenuItem1.Size = new System.Drawing.Size(219, 26);
+            this.changeFontStyleToolStripMenuItem1.Size = new System.Drawing.Size(177, 22);
             this.changeFontStyleToolStripMenuItem1.Text = "Change Font Style ";
             this.changeFontStyleToolStripMenuItem1.Click += new System.EventHandler(this.changeFontStyleToolStripMenuItem1_Click);
             // 
             // changeFontColorToolStripMenuItem
             // 
             this.changeFontColorToolStripMenuItem.Name = "changeFontColorToolStripMenuItem";
-            this.changeFontColorToolStripMenuItem.Size = new System.Drawing.Size(167, 24);
-            // 
-            // RatePanel
-            // 
-            this.RatePanel.Controls.Add(this.guna2HtmlLabel5);
-            this.RatePanel.Controls.Add(this.guna2RatingStar1);
-            this.Transition2.SetDecoration(this.RatePanel, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.Transition.SetDecoration(this.RatePanel, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.RatePanel.Location = new System.Drawing.Point(379, 340);
-            this.RatePanel.Name = "RatePanel";
-            this.RatePanel.ShadowDecoration.Parent = this.RatePanel;
-            this.RatePanel.Size = new System.Drawing.Size(767, 294);
-            this.RatePanel.TabIndex = 22;
-            this.toolTip1.SetToolTip(this.RatePanel, "Rate Application Out Of 5");
-            this.RatePanel.Visible = false;
-            // 
-            // guna2HtmlLabel5
-            // 
-            this.guna2HtmlLabel5.AutoSize = false;
-            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.Transition.SetDecoration(this.guna2HtmlLabel5, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.Transition2.SetDecoration(this.guna2HtmlLabel5, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(6, 20);
-            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(416, 48);
-            this.guna2HtmlLabel5.TabIndex = 23;
-            this.guna2HtmlLabel5.Text = "Rate our Application";
-            this.guna2HtmlLabel5.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // guna2RatingStar1
-            // 
-            this.Transition2.SetDecoration(this.guna2RatingStar1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.Transition.SetDecoration(this.guna2RatingStar1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2RatingStar1.Location = new System.Drawing.Point(79, 114);
-            this.guna2RatingStar1.Name = "guna2RatingStar1";
-            this.guna2RatingStar1.Size = new System.Drawing.Size(611, 64);
-            this.guna2RatingStar1.TabIndex = 0;
+            this.changeFontColorToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             // 
             // step5_pic
             // 
@@ -834,8 +768,6 @@ namespace OnlineBanking_System
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1216, 811);
-            this.Controls.Add(this.Setting_btn);
-            this.Controls.Add(this.RatePanel);
             this.Controls.Add(this.guna2GroupBox1);
             this.Controls.Add(this.guna2HtmlLabel4);
             this.Controls.Add(this.guna2ShadowPanel3);
@@ -862,7 +794,6 @@ namespace OnlineBanking_System
             this.Left_panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Left_Icon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.icon_image)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Setting_btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Exit_btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Back_btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Left_btn)).EndInit();
@@ -876,7 +807,6 @@ namespace OnlineBanking_System
             this.guna2GroupBox1.ResumeLayout(false);
             this.guna2GroupBox1.PerformLayout();
             this.contextMenuStrip1.ResumeLayout(false);
-            this.RatePanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.step5_pic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step4_pic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step_3_pic)).EndInit();
@@ -934,9 +864,5 @@ namespace OnlineBanking_System
         private System.Windows.Forms.ToolStripMenuItem changeFontStyleToolStripMenuItem1;
         public Guna.UI2.WinForms.Guna2Button Calculation_Btn;
         private Guna.UI2.WinForms.Guna2Transition Transition2;
-        private Guna.UI2.WinForms.Guna2Panel RatePanel;
-        private Guna.UI2.WinForms.Guna2RatingStar guna2RatingStar1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
-        private Guna.UI2.WinForms.Guna2PictureBox Setting_btn;
     }
 }

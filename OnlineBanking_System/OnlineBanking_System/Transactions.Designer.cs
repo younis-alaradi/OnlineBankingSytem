@@ -30,12 +30,12 @@ namespace OnlineBanking_System
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             Guna.UI2.AnimatorNS.Animation animation1 = new Guna.UI2.AnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Transactions));
             this.CustomBorder = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
@@ -54,26 +54,8 @@ namespace OnlineBanking_System
             this.AccountName_label = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SendMoneyPanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.TransferDataGridView = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.S_transactionsBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.S_Clear_btn = new Guna.UI2.WinForms.Guna2Button();
-            this.S_pay_btn = new Guna.UI2.WinForms.Guna2Button();
-            this.S_CommentTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.S_AmountTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.S_IBAN_textBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.RequestMoneyPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.Requst_datagridview = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.R_TransactionBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.R_ClearBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.R_PayBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.R_CommentTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.R_AmountTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.R_IBANTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.Transition1 = new Guna.UI2.WinForms.Guna2Transition();
-            this.S_TranscriptButton = new Guna.UI2.WinForms.Guna2Button();
-            this.R_TranscriptButton = new Guna.UI2.WinForms.Guna2Button();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -81,6 +63,14 @@ namespace OnlineBanking_System
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.moneyRequestBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.onlineBankingSystemDBDataset = new OnlineBanking_System.OnlineBankingSystemDBDataset();
+            this.R_TransactionBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.R_ClearBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.R_PayBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.R_CommentTextBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.R_AmountTextBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.R_IBANTextBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.TransferDataGridView = new Guna.UI2.WinForms.Guna2DataGridView();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.iBANDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.amountDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -88,6 +78,14 @@ namespace OnlineBanking_System
             this.userNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.moneyTransferBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.onlineBankingSystemDBDataset1 = new OnlineBanking_System.OnlineBankingSystemDBDataset();
+            this.S_transactionsBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.S_Clear_btn = new Guna.UI2.WinForms.Guna2Button();
+            this.S_pay_btn = new Guna.UI2.WinForms.Guna2Button();
+            this.S_CommentTextBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.S_AmountTextBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.S_IBAN_textBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Transition1 = new Guna.UI2.WinForms.Guna2Transition();
             this.moneyTransferTableAdapter = new OnlineBanking_System.OnlineBankingSystemDBDatasetTableAdapters.MoneyTransferTableAdapter();
             this.moneyRequestTableAdapter = new OnlineBanking_System.OnlineBankingSystemDBDatasetTableAdapters.MoneyRequestTableAdapter();
             this.guna2Panel1.SuspendLayout();
@@ -95,11 +93,11 @@ namespace OnlineBanking_System
             this.guna2Panel2.SuspendLayout();
             this.Main_infPanel.SuspendLayout();
             this.SendMoneyPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.TransferDataGridView)).BeginInit();
             this.RequestMoneyPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Requst_datagridview)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.moneyRequestBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.onlineBankingSystemDBDataset)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TransferDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.moneyTransferBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.onlineBankingSystemDBDataset1)).BeginInit();
             this.SuspendLayout();
@@ -305,7 +303,6 @@ namespace OnlineBanking_System
             // 
             // SendMoneyPanel
             // 
-            this.SendMoneyPanel.Controls.Add(this.S_TranscriptButton);
             this.SendMoneyPanel.Controls.Add(this.TransferDataGridView);
             this.SendMoneyPanel.Controls.Add(this.S_transactionsBtn);
             this.SendMoneyPanel.Controls.Add(this.S_Clear_btn);
@@ -321,260 +318,8 @@ namespace OnlineBanking_System
             this.SendMoneyPanel.Size = new System.Drawing.Size(1200, 365);
             this.SendMoneyPanel.TabIndex = 3;
             // 
-            // TransferDataGridView
-            // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.TransferDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
-            this.TransferDataGridView.AutoGenerateColumns = false;
-            this.TransferDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.TransferDataGridView.BackgroundColor = System.Drawing.Color.White;
-            this.TransferDataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TransferDataGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.TransferDataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.TransferDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            this.TransferDataGridView.ColumnHeadersHeight = 21;
-            this.TransferDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn,
-            this.iBANDataGridViewTextBoxColumn,
-            this.amountDataGridViewTextBoxColumn,
-            this.commentDataGridViewTextBoxColumn,
-            this.userNameDataGridViewTextBoxColumn});
-            this.TransferDataGridView.DataSource = this.moneyTransferBindingSource;
-            this.Transition1.SetDecoration(this.TransferDataGridView, Guna.UI2.AnimatorNS.DecorationType.None);
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.TransferDataGridView.DefaultCellStyle = dataGridViewCellStyle6;
-            this.TransferDataGridView.EnableHeadersVisualStyles = false;
-            this.TransferDataGridView.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.TransferDataGridView.Location = new System.Drawing.Point(843, 25);
-            this.TransferDataGridView.Name = "TransferDataGridView";
-            this.TransferDataGridView.RowHeadersVisible = false;
-            this.TransferDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.TransferDataGridView.Size = new System.Drawing.Size(354, 238);
-            this.TransferDataGridView.TabIndex = 18;
-            this.TransferDataGridView.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
-            this.TransferDataGridView.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.TransferDataGridView.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.TransferDataGridView.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.TransferDataGridView.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.TransferDataGridView.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.TransferDataGridView.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.TransferDataGridView.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.TransferDataGridView.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.TransferDataGridView.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.TransferDataGridView.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.TransferDataGridView.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.TransferDataGridView.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.TransferDataGridView.ThemeStyle.HeaderStyle.Height = 21;
-            this.TransferDataGridView.ThemeStyle.ReadOnly = false;
-            this.TransferDataGridView.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.TransferDataGridView.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.TransferDataGridView.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.TransferDataGridView.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.TransferDataGridView.ThemeStyle.RowsStyle.Height = 22;
-            this.TransferDataGridView.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.TransferDataGridView.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.TransferDataGridView.Visible = false;
-            // 
-            // S_transactionsBtn
-            // 
-            this.S_transactionsBtn.Animated = true;
-            this.S_transactionsBtn.AutoRoundedCorners = true;
-            this.S_transactionsBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.S_transactionsBtn.BorderRadius = 21;
-            this.S_transactionsBtn.BorderThickness = 2;
-            this.S_transactionsBtn.CheckedState.Parent = this.S_transactionsBtn;
-            this.S_transactionsBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.S_transactionsBtn.CustomImages.Parent = this.S_transactionsBtn;
-            this.Transition1.SetDecoration(this.S_transactionsBtn, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.S_transactionsBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.S_transactionsBtn.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.S_transactionsBtn.ForeColor = System.Drawing.Color.White;
-            this.S_transactionsBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.S_transactionsBtn.HoverState.FillColor = System.Drawing.Color.White;
-            this.S_transactionsBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.S_transactionsBtn.HoverState.Parent = this.S_transactionsBtn;
-            this.S_transactionsBtn.Location = new System.Drawing.Point(641, 285);
-            this.S_transactionsBtn.Name = "S_transactionsBtn";
-            this.S_transactionsBtn.ShadowDecoration.Parent = this.S_transactionsBtn;
-            this.S_transactionsBtn.Size = new System.Drawing.Size(180, 45);
-            this.S_transactionsBtn.TabIndex = 17;
-            this.S_transactionsBtn.Text = "TRANSACTIONS";
-            this.S_transactionsBtn.Click += new System.EventHandler(this.S_transactionsBtn_Click);
-            // 
-            // S_Clear_btn
-            // 
-            this.S_Clear_btn.Animated = true;
-            this.S_Clear_btn.AutoRoundedCorners = true;
-            this.S_Clear_btn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.S_Clear_btn.BorderRadius = 21;
-            this.S_Clear_btn.BorderThickness = 2;
-            this.S_Clear_btn.CheckedState.Parent = this.S_Clear_btn;
-            this.S_Clear_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.S_Clear_btn.CustomImages.Parent = this.S_Clear_btn;
-            this.Transition1.SetDecoration(this.S_Clear_btn, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.S_Clear_btn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.S_Clear_btn.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.S_Clear_btn.ForeColor = System.Drawing.Color.White;
-            this.S_Clear_btn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.S_Clear_btn.HoverState.FillColor = System.Drawing.Color.White;
-            this.S_Clear_btn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.S_Clear_btn.HoverState.Parent = this.S_Clear_btn;
-            this.S_Clear_btn.Location = new System.Drawing.Point(404, 285);
-            this.S_Clear_btn.Name = "S_Clear_btn";
-            this.S_Clear_btn.ShadowDecoration.Parent = this.S_Clear_btn;
-            this.S_Clear_btn.Size = new System.Drawing.Size(180, 45);
-            this.S_Clear_btn.TabIndex = 16;
-            this.S_Clear_btn.Text = "CLEAR";
-            this.S_Clear_btn.Click += new System.EventHandler(this.S_Clear_btn_Click);
-            // 
-            // S_pay_btn
-            // 
-            this.S_pay_btn.Animated = true;
-            this.S_pay_btn.AutoRoundedCorners = true;
-            this.S_pay_btn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.S_pay_btn.BorderRadius = 21;
-            this.S_pay_btn.BorderThickness = 2;
-            this.S_pay_btn.CheckedState.Parent = this.S_pay_btn;
-            this.S_pay_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.S_pay_btn.CustomImages.Parent = this.S_pay_btn;
-            this.Transition1.SetDecoration(this.S_pay_btn, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.S_pay_btn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.S_pay_btn.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.S_pay_btn.ForeColor = System.Drawing.Color.White;
-            this.S_pay_btn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.S_pay_btn.HoverState.FillColor = System.Drawing.Color.White;
-            this.S_pay_btn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.S_pay_btn.HoverState.Parent = this.S_pay_btn;
-            this.S_pay_btn.Location = new System.Drawing.Point(169, 285);
-            this.S_pay_btn.Name = "S_pay_btn";
-            this.S_pay_btn.ShadowDecoration.Parent = this.S_pay_btn;
-            this.S_pay_btn.Size = new System.Drawing.Size(180, 45);
-            this.S_pay_btn.TabIndex = 15;
-            this.S_pay_btn.Text = "PAY";
-            this.S_pay_btn.Click += new System.EventHandler(this.S_pay_btn_Click);
-            // 
-            // S_CommentTextBox
-            // 
-            this.S_CommentTextBox.Animated = true;
-            this.S_CommentTextBox.AutoRoundedCorners = true;
-            this.S_CommentTextBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.S_CommentTextBox.BorderRadius = 23;
-            this.S_CommentTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Transition1.SetDecoration(this.S_CommentTextBox, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.S_CommentTextBox.DefaultText = "";
-            this.S_CommentTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.S_CommentTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.S_CommentTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.S_CommentTextBox.DisabledState.Parent = this.S_CommentTextBox;
-            this.S_CommentTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.S_CommentTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.S_CommentTextBox.FocusedState.Parent = this.S_CommentTextBox;
-            this.S_CommentTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.S_CommentTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.S_CommentTextBox.HoverState.Parent = this.S_CommentTextBox;
-            this.S_CommentTextBox.IconLeft = global::OnlineBanking_System.Properties.Resources.income;
-            this.S_CommentTextBox.IconLeftSize = new System.Drawing.Size(30, 30);
-            this.S_CommentTextBox.Location = new System.Drawing.Point(315, 176);
-            this.S_CommentTextBox.Margin = new System.Windows.Forms.Padding(5);
-            this.S_CommentTextBox.Name = "S_CommentTextBox";
-            this.S_CommentTextBox.PasswordChar = '\0';
-            this.S_CommentTextBox.PlaceholderText = "Any Comment.....";
-            this.S_CommentTextBox.SelectedText = "";
-            this.S_CommentTextBox.ShadowDecoration.Parent = this.S_CommentTextBox;
-            this.S_CommentTextBox.Size = new System.Drawing.Size(520, 49);
-            this.S_CommentTextBox.TabIndex = 14;
-            // 
-            // S_AmountTextBox
-            // 
-            this.S_AmountTextBox.Animated = true;
-            this.S_AmountTextBox.AutoRoundedCorners = true;
-            this.S_AmountTextBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.S_AmountTextBox.BorderRadius = 23;
-            this.S_AmountTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Transition1.SetDecoration(this.S_AmountTextBox, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.S_AmountTextBox.DefaultText = "";
-            this.S_AmountTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.S_AmountTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.S_AmountTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.S_AmountTextBox.DisabledState.Parent = this.S_AmountTextBox;
-            this.S_AmountTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.S_AmountTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.S_AmountTextBox.FocusedState.Parent = this.S_AmountTextBox;
-            this.S_AmountTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.S_AmountTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.S_AmountTextBox.HoverState.Parent = this.S_AmountTextBox;
-            this.S_AmountTextBox.IconLeft = global::OnlineBanking_System.Properties.Resources.cash_payment;
-            this.S_AmountTextBox.IconLeftSize = new System.Drawing.Size(30, 30);
-            this.S_AmountTextBox.Location = new System.Drawing.Point(315, 98);
-            this.S_AmountTextBox.Margin = new System.Windows.Forms.Padding(5);
-            this.S_AmountTextBox.Name = "S_AmountTextBox";
-            this.S_AmountTextBox.PasswordChar = '\0';
-            this.S_AmountTextBox.PlaceholderText = "Enter Amount........";
-            this.S_AmountTextBox.SelectedText = "";
-            this.S_AmountTextBox.ShadowDecoration.Parent = this.S_AmountTextBox;
-            this.S_AmountTextBox.Size = new System.Drawing.Size(520, 49);
-            this.S_AmountTextBox.TabIndex = 13;
-            // 
-            // S_IBAN_textBox
-            // 
-            this.S_IBAN_textBox.Animated = true;
-            this.S_IBAN_textBox.AutoRoundedCorners = true;
-            this.S_IBAN_textBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.S_IBAN_textBox.BorderRadius = 23;
-            this.S_IBAN_textBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Transition1.SetDecoration(this.S_IBAN_textBox, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.S_IBAN_textBox.DefaultText = "";
-            this.S_IBAN_textBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.S_IBAN_textBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.S_IBAN_textBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.S_IBAN_textBox.DisabledState.Parent = this.S_IBAN_textBox;
-            this.S_IBAN_textBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.S_IBAN_textBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.S_IBAN_textBox.FocusedState.Parent = this.S_IBAN_textBox;
-            this.S_IBAN_textBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.S_IBAN_textBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.S_IBAN_textBox.HoverState.Parent = this.S_IBAN_textBox;
-            this.S_IBAN_textBox.IconLeft = global::OnlineBanking_System.Properties.Resources.financial;
-            this.S_IBAN_textBox.IconLeftSize = new System.Drawing.Size(30, 30);
-            this.S_IBAN_textBox.Location = new System.Drawing.Point(315, 25);
-            this.S_IBAN_textBox.Margin = new System.Windows.Forms.Padding(5);
-            this.S_IBAN_textBox.Name = "S_IBAN_textBox";
-            this.S_IBAN_textBox.PasswordChar = '\0';
-            this.S_IBAN_textBox.PlaceholderText = "Enter IBAN Number......";
-            this.S_IBAN_textBox.SelectedText = "";
-            this.S_IBAN_textBox.ShadowDecoration.Parent = this.S_IBAN_textBox;
-            this.S_IBAN_textBox.Size = new System.Drawing.Size(520, 49);
-            this.S_IBAN_textBox.TabIndex = 12;
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.Transition1.SetDecoration(this.label1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.label1.Location = new System.Drawing.Point(12, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(283, 43);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "Money Transfaer";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // RequestMoneyPanel
             // 
-            this.RequestMoneyPanel.Controls.Add(this.R_TranscriptButton);
             this.RequestMoneyPanel.Controls.Add(this.Requst_datagridview);
             this.RequestMoneyPanel.Controls.Add(this.R_TransactionBtn);
             this.RequestMoneyPanel.Controls.Add(this.R_ClearBtn);
@@ -584,10 +329,10 @@ namespace OnlineBanking_System
             this.RequestMoneyPanel.Controls.Add(this.R_IBANTextBox);
             this.RequestMoneyPanel.Controls.Add(this.label4);
             this.Transition1.SetDecoration(this.RequestMoneyPanel, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.RequestMoneyPanel.Location = new System.Drawing.Point(3, 402);
+            this.RequestMoneyPanel.Location = new System.Drawing.Point(3, 383);
             this.RequestMoneyPanel.Name = "RequestMoneyPanel";
             this.RequestMoneyPanel.ShadowDecoration.Parent = this.RequestMoneyPanel;
-            this.RequestMoneyPanel.Size = new System.Drawing.Size(1200, 364);
+            this.RequestMoneyPanel.Size = new System.Drawing.Size(1200, 383);
             this.RequestMoneyPanel.TabIndex = 19;
             // 
             // Requst_datagridview
@@ -657,6 +402,47 @@ namespace OnlineBanking_System
             this.Requst_datagridview.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.Requst_datagridview.Visible = false;
             // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "Id";
+            this.dataGridViewTextBoxColumn1.HeaderText = "Id";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "IBAN";
+            this.dataGridViewTextBoxColumn2.HeaderText = "IBAN";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "Amount";
+            this.dataGridViewTextBoxColumn3.HeaderText = "Amount";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "Comment";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Comment";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "UserName";
+            this.dataGridViewTextBoxColumn5.HeaderText = "UserName";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            // 
+            // moneyRequestBindingSource
+            // 
+            this.moneyRequestBindingSource.DataMember = "MoneyRequest";
+            this.moneyRequestBindingSource.DataSource = this.onlineBankingSystemDBDataset;
+            // 
+            // onlineBankingSystemDBDataset
+            // 
+            this.onlineBankingSystemDBDataset.DataSetName = "OnlineBankingSystemDBDataset";
+            this.onlineBankingSystemDBDataset.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // R_TransactionBtn
             // 
             this.R_TransactionBtn.Animated = true;
@@ -675,7 +461,7 @@ namespace OnlineBanking_System
             this.R_TransactionBtn.HoverState.FillColor = System.Drawing.Color.White;
             this.R_TransactionBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
             this.R_TransactionBtn.HoverState.Parent = this.R_TransactionBtn;
-            this.R_TransactionBtn.Location = new System.Drawing.Point(638, 281);
+            this.R_TransactionBtn.Location = new System.Drawing.Point(738, 284);
             this.R_TransactionBtn.Name = "R_TransactionBtn";
             this.R_TransactionBtn.ShadowDecoration.Parent = this.R_TransactionBtn;
             this.R_TransactionBtn.Size = new System.Drawing.Size(180, 45);
@@ -701,7 +487,7 @@ namespace OnlineBanking_System
             this.R_ClearBtn.HoverState.FillColor = System.Drawing.Color.White;
             this.R_ClearBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
             this.R_ClearBtn.HoverState.Parent = this.R_ClearBtn;
-            this.R_ClearBtn.Location = new System.Drawing.Point(401, 281);
+            this.R_ClearBtn.Location = new System.Drawing.Point(501, 284);
             this.R_ClearBtn.Name = "R_ClearBtn";
             this.R_ClearBtn.ShadowDecoration.Parent = this.R_ClearBtn;
             this.R_ClearBtn.Size = new System.Drawing.Size(180, 45);
@@ -727,7 +513,7 @@ namespace OnlineBanking_System
             this.R_PayBtn.HoverState.FillColor = System.Drawing.Color.White;
             this.R_PayBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
             this.R_PayBtn.HoverState.Parent = this.R_PayBtn;
-            this.R_PayBtn.Location = new System.Drawing.Point(166, 281);
+            this.R_PayBtn.Location = new System.Drawing.Point(266, 284);
             this.R_PayBtn.Name = "R_PayBtn";
             this.R_PayBtn.ShadowDecoration.Parent = this.R_PayBtn;
             this.R_PayBtn.Size = new System.Drawing.Size(180, 45);
@@ -841,119 +627,72 @@ namespace OnlineBanking_System
             this.label4.Text = "Request Money";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Transition1
+            // TransferDataGridView
             // 
-            this.Transition1.AnimationType = Guna.UI2.AnimatorNS.AnimationType.ScaleAndRotate;
-            this.Transition1.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(30);
-            animation1.RotateCoeff = 0.5F;
-            animation1.RotateLimit = 0.2F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
-            this.Transition1.DefaultAnimation = animation1;
-            // 
-            // S_TranscriptButton
-            // 
-            this.S_TranscriptButton.Animated = true;
-            this.S_TranscriptButton.AutoRoundedCorners = true;
-            this.S_TranscriptButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.S_TranscriptButton.BorderRadius = 21;
-            this.S_TranscriptButton.BorderThickness = 2;
-            this.S_TranscriptButton.CheckedState.Parent = this.S_TranscriptButton;
-            this.S_TranscriptButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.S_TranscriptButton.CustomImages.Parent = this.S_TranscriptButton;
-            this.Transition1.SetDecoration(this.S_TranscriptButton, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.S_TranscriptButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.S_TranscriptButton.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.S_TranscriptButton.ForeColor = System.Drawing.Color.White;
-            this.S_TranscriptButton.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.S_TranscriptButton.HoverState.FillColor = System.Drawing.Color.White;
-            this.S_TranscriptButton.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.S_TranscriptButton.HoverState.Parent = this.S_TranscriptButton;
-            this.S_TranscriptButton.Location = new System.Drawing.Point(857, 285);
-            this.S_TranscriptButton.Name = "S_TranscriptButton";
-            this.S_TranscriptButton.ShadowDecoration.Parent = this.S_TranscriptButton;
-            this.S_TranscriptButton.Size = new System.Drawing.Size(180, 45);
-            this.S_TranscriptButton.TabIndex = 19;
-            this.S_TranscriptButton.Text = "Transcript";
-            this.S_TranscriptButton.Click += new System.EventHandler(this.S_TranscriptButton_Click);
-            // 
-            // R_TranscriptButton
-            // 
-            this.R_TranscriptButton.Animated = true;
-            this.R_TranscriptButton.AutoRoundedCorners = true;
-            this.R_TranscriptButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.R_TranscriptButton.BorderRadius = 21;
-            this.R_TranscriptButton.BorderThickness = 2;
-            this.R_TranscriptButton.CheckedState.Parent = this.R_TranscriptButton;
-            this.R_TranscriptButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.R_TranscriptButton.CustomImages.Parent = this.R_TranscriptButton;
-            this.Transition1.SetDecoration(this.R_TranscriptButton, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.R_TranscriptButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.R_TranscriptButton.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.R_TranscriptButton.ForeColor = System.Drawing.Color.White;
-            this.R_TranscriptButton.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.R_TranscriptButton.HoverState.FillColor = System.Drawing.Color.White;
-            this.R_TranscriptButton.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
-            this.R_TranscriptButton.HoverState.Parent = this.R_TranscriptButton;
-            this.R_TranscriptButton.Location = new System.Drawing.Point(837, 281);
-            this.R_TranscriptButton.Name = "R_TranscriptButton";
-            this.R_TranscriptButton.ShadowDecoration.Parent = this.R_TranscriptButton;
-            this.R_TranscriptButton.Size = new System.Drawing.Size(180, 45);
-            this.R_TranscriptButton.TabIndex = 20;
-            this.R_TranscriptButton.Text = "TRANSCRIPT";
-            this.R_TranscriptButton.Click += new System.EventHandler(this.R_TranscriptButton_Click);
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "Id";
-            this.dataGridViewTextBoxColumn1.HeaderText = "Id";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "IBAN";
-            this.dataGridViewTextBoxColumn2.HeaderText = "IBAN";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "Amount";
-            this.dataGridViewTextBoxColumn3.HeaderText = "Amount";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "Comment";
-            this.dataGridViewTextBoxColumn4.HeaderText = "Comment";
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "UserName";
-            this.dataGridViewTextBoxColumn5.HeaderText = "UserName";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            // 
-            // moneyRequestBindingSource
-            // 
-            this.moneyRequestBindingSource.DataMember = "MoneyRequest";
-            this.moneyRequestBindingSource.DataSource = this.onlineBankingSystemDBDataset;
-            // 
-            // onlineBankingSystemDBDataset
-            // 
-            this.onlineBankingSystemDBDataset.DataSetName = "OnlineBankingSystemDBDataset";
-            this.onlineBankingSystemDBDataset.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.TransferDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.TransferDataGridView.AutoGenerateColumns = false;
+            this.TransferDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.TransferDataGridView.BackgroundColor = System.Drawing.Color.White;
+            this.TransferDataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TransferDataGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.TransferDataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.TransferDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.TransferDataGridView.ColumnHeadersHeight = 21;
+            this.TransferDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn,
+            this.iBANDataGridViewTextBoxColumn,
+            this.amountDataGridViewTextBoxColumn,
+            this.commentDataGridViewTextBoxColumn,
+            this.userNameDataGridViewTextBoxColumn});
+            this.TransferDataGridView.DataSource = this.moneyTransferBindingSource;
+            this.Transition1.SetDecoration(this.TransferDataGridView, Guna.UI2.AnimatorNS.DecorationType.None);
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.TransferDataGridView.DefaultCellStyle = dataGridViewCellStyle6;
+            this.TransferDataGridView.EnableHeadersVisualStyles = false;
+            this.TransferDataGridView.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.TransferDataGridView.Location = new System.Drawing.Point(843, 25);
+            this.TransferDataGridView.Name = "TransferDataGridView";
+            this.TransferDataGridView.RowHeadersVisible = false;
+            this.TransferDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.TransferDataGridView.Size = new System.Drawing.Size(354, 238);
+            this.TransferDataGridView.TabIndex = 18;
+            this.TransferDataGridView.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
+            this.TransferDataGridView.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.TransferDataGridView.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.TransferDataGridView.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.TransferDataGridView.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.TransferDataGridView.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.TransferDataGridView.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.TransferDataGridView.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.TransferDataGridView.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.TransferDataGridView.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.TransferDataGridView.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.TransferDataGridView.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.TransferDataGridView.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.TransferDataGridView.ThemeStyle.HeaderStyle.Height = 21;
+            this.TransferDataGridView.ThemeStyle.ReadOnly = false;
+            this.TransferDataGridView.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.TransferDataGridView.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.TransferDataGridView.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.TransferDataGridView.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.TransferDataGridView.ThemeStyle.RowsStyle.Height = 22;
+            this.TransferDataGridView.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.TransferDataGridView.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.TransferDataGridView.Visible = false;
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -996,6 +735,211 @@ namespace OnlineBanking_System
             this.onlineBankingSystemDBDataset1.DataSetName = "OnlineBankingSystemDBDataset";
             this.onlineBankingSystemDBDataset1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
+            // S_transactionsBtn
+            // 
+            this.S_transactionsBtn.Animated = true;
+            this.S_transactionsBtn.AutoRoundedCorners = true;
+            this.S_transactionsBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
+            this.S_transactionsBtn.BorderRadius = 21;
+            this.S_transactionsBtn.BorderThickness = 2;
+            this.S_transactionsBtn.CheckedState.Parent = this.S_transactionsBtn;
+            this.S_transactionsBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.S_transactionsBtn.CustomImages.Parent = this.S_transactionsBtn;
+            this.Transition1.SetDecoration(this.S_transactionsBtn, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.S_transactionsBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
+            this.S_transactionsBtn.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.S_transactionsBtn.ForeColor = System.Drawing.Color.White;
+            this.S_transactionsBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
+            this.S_transactionsBtn.HoverState.FillColor = System.Drawing.Color.White;
+            this.S_transactionsBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
+            this.S_transactionsBtn.HoverState.Parent = this.S_transactionsBtn;
+            this.S_transactionsBtn.Location = new System.Drawing.Point(738, 284);
+            this.S_transactionsBtn.Name = "S_transactionsBtn";
+            this.S_transactionsBtn.ShadowDecoration.Parent = this.S_transactionsBtn;
+            this.S_transactionsBtn.Size = new System.Drawing.Size(180, 45);
+            this.S_transactionsBtn.TabIndex = 17;
+            this.S_transactionsBtn.Text = "TRANSACTIONS";
+            this.S_transactionsBtn.Click += new System.EventHandler(this.S_transactionsBtn_Click);
+            // 
+            // S_Clear_btn
+            // 
+            this.S_Clear_btn.Animated = true;
+            this.S_Clear_btn.AutoRoundedCorners = true;
+            this.S_Clear_btn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
+            this.S_Clear_btn.BorderRadius = 21;
+            this.S_Clear_btn.BorderThickness = 2;
+            this.S_Clear_btn.CheckedState.Parent = this.S_Clear_btn;
+            this.S_Clear_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.S_Clear_btn.CustomImages.Parent = this.S_Clear_btn;
+            this.Transition1.SetDecoration(this.S_Clear_btn, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.S_Clear_btn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
+            this.S_Clear_btn.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.S_Clear_btn.ForeColor = System.Drawing.Color.White;
+            this.S_Clear_btn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
+            this.S_Clear_btn.HoverState.FillColor = System.Drawing.Color.White;
+            this.S_Clear_btn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
+            this.S_Clear_btn.HoverState.Parent = this.S_Clear_btn;
+            this.S_Clear_btn.Location = new System.Drawing.Point(501, 284);
+            this.S_Clear_btn.Name = "S_Clear_btn";
+            this.S_Clear_btn.ShadowDecoration.Parent = this.S_Clear_btn;
+            this.S_Clear_btn.Size = new System.Drawing.Size(180, 45);
+            this.S_Clear_btn.TabIndex = 16;
+            this.S_Clear_btn.Text = "CLEAR";
+            this.S_Clear_btn.Click += new System.EventHandler(this.S_Clear_btn_Click);
+            // 
+            // S_pay_btn
+            // 
+            this.S_pay_btn.Animated = true;
+            this.S_pay_btn.AutoRoundedCorners = true;
+            this.S_pay_btn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
+            this.S_pay_btn.BorderRadius = 21;
+            this.S_pay_btn.BorderThickness = 2;
+            this.S_pay_btn.CheckedState.Parent = this.S_pay_btn;
+            this.S_pay_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.S_pay_btn.CustomImages.Parent = this.S_pay_btn;
+            this.Transition1.SetDecoration(this.S_pay_btn, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.S_pay_btn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
+            this.S_pay_btn.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.S_pay_btn.ForeColor = System.Drawing.Color.White;
+            this.S_pay_btn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
+            this.S_pay_btn.HoverState.FillColor = System.Drawing.Color.White;
+            this.S_pay_btn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
+            this.S_pay_btn.HoverState.Parent = this.S_pay_btn;
+            this.S_pay_btn.Location = new System.Drawing.Point(266, 284);
+            this.S_pay_btn.Name = "S_pay_btn";
+            this.S_pay_btn.ShadowDecoration.Parent = this.S_pay_btn;
+            this.S_pay_btn.Size = new System.Drawing.Size(180, 45);
+            this.S_pay_btn.TabIndex = 15;
+            this.S_pay_btn.Text = "PAY";
+            this.S_pay_btn.Click += new System.EventHandler(this.S_pay_btn_Click);
+            // 
+            // S_CommentTextBox
+            // 
+            this.S_CommentTextBox.Animated = true;
+            this.S_CommentTextBox.AutoRoundedCorners = true;
+            this.S_CommentTextBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
+            this.S_CommentTextBox.BorderRadius = 23;
+            this.S_CommentTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Transition1.SetDecoration(this.S_CommentTextBox, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.S_CommentTextBox.DefaultText = "";
+            this.S_CommentTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.S_CommentTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.S_CommentTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.S_CommentTextBox.DisabledState.Parent = this.S_CommentTextBox;
+            this.S_CommentTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.S_CommentTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.S_CommentTextBox.FocusedState.Parent = this.S_CommentTextBox;
+            this.S_CommentTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.S_CommentTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.S_CommentTextBox.HoverState.Parent = this.S_CommentTextBox;
+            this.S_CommentTextBox.IconLeft = global::OnlineBanking_System.Properties.Resources.income;
+            this.S_CommentTextBox.IconLeftSize = new System.Drawing.Size(30, 30);
+            this.S_CommentTextBox.Location = new System.Drawing.Point(315, 176);
+            this.S_CommentTextBox.Margin = new System.Windows.Forms.Padding(5);
+            this.S_CommentTextBox.Name = "S_CommentTextBox";
+            this.S_CommentTextBox.PasswordChar = '\0';
+            this.S_CommentTextBox.PlaceholderText = "Any Comment.....";
+            this.S_CommentTextBox.SelectedText = "";
+            this.S_CommentTextBox.ShadowDecoration.Parent = this.S_CommentTextBox;
+            this.S_CommentTextBox.Size = new System.Drawing.Size(520, 49);
+            this.S_CommentTextBox.TabIndex = 14;
+            // 
+            // S_AmountTextBox
+            // 
+            this.S_AmountTextBox.Animated = true;
+            this.S_AmountTextBox.AutoRoundedCorners = true;
+            this.S_AmountTextBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
+            this.S_AmountTextBox.BorderRadius = 23;
+            this.S_AmountTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Transition1.SetDecoration(this.S_AmountTextBox, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.S_AmountTextBox.DefaultText = "";
+            this.S_AmountTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.S_AmountTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.S_AmountTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.S_AmountTextBox.DisabledState.Parent = this.S_AmountTextBox;
+            this.S_AmountTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.S_AmountTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.S_AmountTextBox.FocusedState.Parent = this.S_AmountTextBox;
+            this.S_AmountTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.S_AmountTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.S_AmountTextBox.HoverState.Parent = this.S_AmountTextBox;
+            this.S_AmountTextBox.IconLeft = global::OnlineBanking_System.Properties.Resources.cash_payment;
+            this.S_AmountTextBox.IconLeftSize = new System.Drawing.Size(30, 30);
+            this.S_AmountTextBox.Location = new System.Drawing.Point(315, 98);
+            this.S_AmountTextBox.Margin = new System.Windows.Forms.Padding(5);
+            this.S_AmountTextBox.Name = "S_AmountTextBox";
+            this.S_AmountTextBox.PasswordChar = '\0';
+            this.S_AmountTextBox.PlaceholderText = "Enter Amount........";
+            this.S_AmountTextBox.SelectedText = "";
+            this.S_AmountTextBox.ShadowDecoration.Parent = this.S_AmountTextBox;
+            this.S_AmountTextBox.Size = new System.Drawing.Size(520, 49);
+            this.S_AmountTextBox.TabIndex = 13;
+            // 
+            // S_IBAN_textBox
+            // 
+            this.S_IBAN_textBox.Animated = true;
+            this.S_IBAN_textBox.AutoRoundedCorners = true;
+            this.S_IBAN_textBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
+            this.S_IBAN_textBox.BorderRadius = 23;
+            this.S_IBAN_textBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Transition1.SetDecoration(this.S_IBAN_textBox, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.S_IBAN_textBox.DefaultText = "";
+            this.S_IBAN_textBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.S_IBAN_textBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.S_IBAN_textBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.S_IBAN_textBox.DisabledState.Parent = this.S_IBAN_textBox;
+            this.S_IBAN_textBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.S_IBAN_textBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.S_IBAN_textBox.FocusedState.Parent = this.S_IBAN_textBox;
+            this.S_IBAN_textBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.S_IBAN_textBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.S_IBAN_textBox.HoverState.Parent = this.S_IBAN_textBox;
+            this.S_IBAN_textBox.IconLeft = global::OnlineBanking_System.Properties.Resources.financial;
+            this.S_IBAN_textBox.IconLeftSize = new System.Drawing.Size(30, 30);
+            this.S_IBAN_textBox.Location = new System.Drawing.Point(315, 25);
+            this.S_IBAN_textBox.Margin = new System.Windows.Forms.Padding(5);
+            this.S_IBAN_textBox.Name = "S_IBAN_textBox";
+            this.S_IBAN_textBox.PasswordChar = '\0';
+            this.S_IBAN_textBox.PlaceholderText = "Enter IBAN Number......";
+            this.S_IBAN_textBox.SelectedText = "";
+            this.S_IBAN_textBox.ShadowDecoration.Parent = this.S_IBAN_textBox;
+            this.S_IBAN_textBox.Size = new System.Drawing.Size(520, 49);
+            this.S_IBAN_textBox.TabIndex = 12;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.Transition1.SetDecoration(this.label1, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(107)))), ((int)(((byte)(252)))));
+            this.label1.Location = new System.Drawing.Point(12, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(283, 43);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Money Transfaer";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Transition1
+            // 
+            this.Transition1.AnimationType = Guna.UI2.AnimatorNS.AnimationType.ScaleAndRotate;
+            this.Transition1.Cursor = null;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(30);
+            animation1.RotateCoeff = 0.5F;
+            animation1.RotateLimit = 0.2F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.Transition1.DefaultAnimation = animation1;
+            // 
             // moneyTransferTableAdapter
             // 
             this.moneyTransferTableAdapter.ClearBeforeFill = true;
@@ -1027,11 +971,11 @@ namespace OnlineBanking_System
             this.guna2Panel2.ResumeLayout(false);
             this.Main_infPanel.ResumeLayout(false);
             this.SendMoneyPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.TransferDataGridView)).EndInit();
             this.RequestMoneyPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Requst_datagridview)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.moneyRequestBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.onlineBankingSystemDBDataset)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TransferDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.moneyTransferBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.onlineBankingSystemDBDataset1)).EndInit();
             this.ResumeLayout(false);
@@ -1090,7 +1034,5 @@ namespace OnlineBanking_System
         private OnlineBankingSystemDBDataset onlineBankingSystemDBDataset;
         private System.Windows.Forms.BindingSource moneyRequestBindingSource;
         private OnlineBankingSystemDBDatasetTableAdapters.MoneyRequestTableAdapter moneyRequestTableAdapter;
-        private Guna.UI2.WinForms.Guna2Button R_TranscriptButton;
-        private Guna.UI2.WinForms.Guna2Button S_TranscriptButton;
     }
 }

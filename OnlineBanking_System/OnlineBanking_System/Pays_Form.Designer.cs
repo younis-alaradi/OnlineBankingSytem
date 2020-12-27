@@ -298,7 +298,7 @@ namespace OnlineBanking_System
             this.University_btn.TabIndex = 4;
             this.University_btn.Text = "University";
             this.University_btn.TextOffset = new System.Drawing.Point(3, 0);
-            this.toolTip1.SetToolTip(this.University_btn, "Pay University bills");
+            this.toolTip1.SetToolTip(this.University_btn, "Pay university bills");
             this.University_btn.UseTransparentBackground = true;
             this.University_btn.Click += new System.EventHandler(this.University_btn_Click);
             // 
@@ -516,7 +516,6 @@ namespace OnlineBanking_System
             this.NetworkDatagrid.Name = "NetworkDatagrid";
             this.NetworkDatagrid.ReadOnly = true;
             this.NetworkDatagrid.RowHeadersVisible = false;
-            this.NetworkDatagrid.RowHeadersWidth = 51;
             this.NetworkDatagrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.NetworkDatagrid.Size = new System.Drawing.Size(912, 453);
             this.NetworkDatagrid.TabIndex = 0;
@@ -547,7 +546,6 @@ namespace OnlineBanking_System
             // 
             this.idDataGridViewTextBoxColumn2.DataPropertyName = "Id";
             this.idDataGridViewTextBoxColumn2.HeaderText = "Id";
-            this.idDataGridViewTextBoxColumn2.MinimumWidth = 6;
             this.idDataGridViewTextBoxColumn2.Name = "idDataGridViewTextBoxColumn2";
             this.idDataGridViewTextBoxColumn2.ReadOnly = true;
             // 
@@ -555,7 +553,6 @@ namespace OnlineBanking_System
             // 
             this.shopNameDataGridViewTextBoxColumn2.DataPropertyName = "Shop Name ";
             this.shopNameDataGridViewTextBoxColumn2.HeaderText = "Shop Name ";
-            this.shopNameDataGridViewTextBoxColumn2.MinimumWidth = 6;
             this.shopNameDataGridViewTextBoxColumn2.Name = "shopNameDataGridViewTextBoxColumn2";
             this.shopNameDataGridViewTextBoxColumn2.ReadOnly = true;
             // 
@@ -563,7 +560,6 @@ namespace OnlineBanking_System
             // 
             this.invoiceNoDataGridViewTextBoxColumn2.DataPropertyName = "Invoice No";
             this.invoiceNoDataGridViewTextBoxColumn2.HeaderText = "Invoice No";
-            this.invoiceNoDataGridViewTextBoxColumn2.MinimumWidth = 6;
             this.invoiceNoDataGridViewTextBoxColumn2.Name = "invoiceNoDataGridViewTextBoxColumn2";
             this.invoiceNoDataGridViewTextBoxColumn2.ReadOnly = true;
             // 
@@ -571,7 +567,6 @@ namespace OnlineBanking_System
             // 
             this.commentDataGridViewTextBoxColumn2.DataPropertyName = "Comment";
             this.commentDataGridViewTextBoxColumn2.HeaderText = "Comment";
-            this.commentDataGridViewTextBoxColumn2.MinimumWidth = 6;
             this.commentDataGridViewTextBoxColumn2.Name = "commentDataGridViewTextBoxColumn2";
             this.commentDataGridViewTextBoxColumn2.ReadOnly = true;
             // 
@@ -579,7 +574,6 @@ namespace OnlineBanking_System
             // 
             this.userNameDataGridViewTextBoxColumn2.DataPropertyName = "User_Name";
             this.userNameDataGridViewTextBoxColumn2.HeaderText = "User_Name";
-            this.userNameDataGridViewTextBoxColumn2.MinimumWidth = 6;
             this.userNameDataGridViewTextBoxColumn2.Name = "userNameDataGridViewTextBoxColumn2";
             this.userNameDataGridViewTextBoxColumn2.ReadOnly = true;
             // 
@@ -978,7 +972,6 @@ namespace OnlineBanking_System
             this.UniversityDatagridview.Location = new System.Drawing.Point(0, 0);
             this.UniversityDatagridview.Name = "UniversityDatagridview";
             this.UniversityDatagridview.RowHeadersVisible = false;
-            this.UniversityDatagridview.RowHeadersWidth = 51;
             this.UniversityDatagridview.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.UniversityDatagridview.Size = new System.Drawing.Size(837, 454);
             this.UniversityDatagridview.TabIndex = 0;
@@ -1009,7 +1002,6 @@ namespace OnlineBanking_System
             // 
             this.idDataGridViewTextBoxColumn1.DataPropertyName = "Id";
             this.idDataGridViewTextBoxColumn1.HeaderText = "Id";
-            this.idDataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.idDataGridViewTextBoxColumn1.Name = "idDataGridViewTextBoxColumn1";
             this.idDataGridViewTextBoxColumn1.ReadOnly = true;
             // 
@@ -1017,28 +1009,24 @@ namespace OnlineBanking_System
             // 
             this.shopNameDataGridViewTextBoxColumn1.DataPropertyName = "Shop Name ";
             this.shopNameDataGridViewTextBoxColumn1.HeaderText = "Shop Name ";
-            this.shopNameDataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.shopNameDataGridViewTextBoxColumn1.Name = "shopNameDataGridViewTextBoxColumn1";
             // 
             // invoiceNoDataGridViewTextBoxColumn1
             // 
             this.invoiceNoDataGridViewTextBoxColumn1.DataPropertyName = "Invoice No";
             this.invoiceNoDataGridViewTextBoxColumn1.HeaderText = "Invoice No";
-            this.invoiceNoDataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.invoiceNoDataGridViewTextBoxColumn1.Name = "invoiceNoDataGridViewTextBoxColumn1";
             // 
             // commentDataGridViewTextBoxColumn1
             // 
             this.commentDataGridViewTextBoxColumn1.DataPropertyName = "Comment";
             this.commentDataGridViewTextBoxColumn1.HeaderText = "Comment";
-            this.commentDataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.commentDataGridViewTextBoxColumn1.Name = "commentDataGridViewTextBoxColumn1";
             // 
             // userNameDataGridViewTextBoxColumn1
             // 
             this.userNameDataGridViewTextBoxColumn1.DataPropertyName = "User_Name";
             this.userNameDataGridViewTextBoxColumn1.HeaderText = "User_Name";
-            this.userNameDataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.userNameDataGridViewTextBoxColumn1.Name = "userNameDataGridViewTextBoxColumn1";
             // 
             // UniversityInvoice_textbox
@@ -1668,7 +1656,6 @@ namespace OnlineBanking_System
             this.Market_Datagridview.Location = new System.Drawing.Point(0, 0);
             this.Market_Datagridview.Name = "Market_Datagridview";
             this.Market_Datagridview.RowHeadersVisible = false;
-            this.Market_Datagridview.RowHeadersWidth = 51;
             this.Market_Datagridview.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.Market_Datagridview.Size = new System.Drawing.Size(961, 393);
             this.Market_Datagridview.TabIndex = 0;
@@ -1699,7 +1686,6 @@ namespace OnlineBanking_System
             // 
             this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
             this.idDataGridViewTextBoxColumn.HeaderText = "Id";
-            this.idDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
             this.idDataGridViewTextBoxColumn.ReadOnly = true;
             // 
@@ -1707,28 +1693,24 @@ namespace OnlineBanking_System
             // 
             this.shopNameDataGridViewTextBoxColumn.DataPropertyName = "Shop Name ";
             this.shopNameDataGridViewTextBoxColumn.HeaderText = "Shop Name ";
-            this.shopNameDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.shopNameDataGridViewTextBoxColumn.Name = "shopNameDataGridViewTextBoxColumn";
             // 
             // invoiceNoDataGridViewTextBoxColumn
             // 
             this.invoiceNoDataGridViewTextBoxColumn.DataPropertyName = "Invoice No";
             this.invoiceNoDataGridViewTextBoxColumn.HeaderText = "Invoice No";
-            this.invoiceNoDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.invoiceNoDataGridViewTextBoxColumn.Name = "invoiceNoDataGridViewTextBoxColumn";
             // 
             // commentDataGridViewTextBoxColumn
             // 
             this.commentDataGridViewTextBoxColumn.DataPropertyName = "Comment";
             this.commentDataGridViewTextBoxColumn.HeaderText = "Comment";
-            this.commentDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.commentDataGridViewTextBoxColumn.Name = "commentDataGridViewTextBoxColumn";
             // 
             // userNameDataGridViewTextBoxColumn
             // 
             this.userNameDataGridViewTextBoxColumn.DataPropertyName = "User_Name";
             this.userNameDataGridViewTextBoxColumn.HeaderText = "User_Name";
-            this.userNameDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.userNameDataGridViewTextBoxColumn.Name = "userNameDataGridViewTextBoxColumn";
             // 
             // Comment_textBox
@@ -1785,7 +1767,6 @@ namespace OnlineBanking_System
             this.DateTime_label.TabIndex = 6;
             this.DateTime_label.Text = "Date";
             this.DateTime_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.toolTip1.SetToolTip(this.DateTime_label, "Date");
             // 
             // guna2Separator2
             // 
@@ -1815,7 +1796,7 @@ namespace OnlineBanking_System
             this.Show_Balance_btn.Size = new System.Drawing.Size(279, 45);
             this.Show_Balance_btn.TabIndex = 5;
             this.Show_Balance_btn.Text = "Show account Balance";
-            this.toolTip1.SetToolTip(this.Show_Balance_btn, "Show Account Balance");
+            this.toolTip1.SetToolTip(this.Show_Balance_btn, "Show account balance");
             this.Show_Balance_btn.Click += new System.EventHandler(this.Show_Balance_btn_Click);
             // 
             // AccountName_label
@@ -1830,7 +1811,6 @@ namespace OnlineBanking_System
             this.AccountName_label.TabIndex = 4;
             this.AccountName_label.Text = "Accoutn holder Name";
             this.AccountName_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.toolTip1.SetToolTip(this.AccountName_label, "Account Holder Name");
             // 
             // label2
             // 

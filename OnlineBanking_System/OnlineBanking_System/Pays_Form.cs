@@ -78,13 +78,9 @@ namespace OnlineBanking_System
         /************************************Main buttons*************************************************/
         private void Return_btn_Click(object sender, EventArgs e)
         {
-            var put = MessageBox.Show("Are You Sure You Want To Close The Pay Bills Form And Go Back To Main Form???", "Closing Pay Bills", MessageBoxButtons.YesNo, MessageBoxIcon.Information,MessageBoxDefaultButton.Button2);
-            if (put == DialogResult.Yes)
-            {
-                this.Hide();
-                Main_Form Main = new Main_Form();
-                Main.Show();
-            }
+            this.Hide();
+            Main_Form Main = new Main_Form();
+            Main.Show();
         }
 
         private void Market_btn_Click(object sender, EventArgs e)
@@ -435,7 +431,7 @@ namespace OnlineBanking_System
 
         private void Net_HistoryBtn_Click(object sender, EventArgs e)
         {
-            paysTableAdapter.Fill_NetworkProviderr();
+            paysTableAdapter.Fill_NetworkProvider(onlineBankingSystemDBDataset1.Pays);
             Transition.ShowSync(NetworkDatagridPanel);
         }
     }

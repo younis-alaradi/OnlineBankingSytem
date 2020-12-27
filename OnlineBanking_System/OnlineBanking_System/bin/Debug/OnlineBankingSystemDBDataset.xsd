@@ -304,33 +304,6 @@ WHERE        (UserName = @dataEntry)</CommandText>
                   </DbCommand>
                 </SelectCommand>
               </DbSource>
-              <DbSource ConnectionRef="OnlineBankingSystemDBConnectionString (Settings)" DbObjectName="dbo.MoneyTransfer" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="getrequestAmount" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="getrequestAmount" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="getrequestAmount">
-                <SelectCommand>
-                  <DbCommand CommandType="Text" ModifiedByUser="true">
-                    <CommandText>SELECT        Amount
-FROM            MoneyTransfer</CommandText>
-                    <Parameters />
-                  </DbCommand>
-                </SelectCommand>
-              </DbSource>
-              <DbSource ConnectionRef="OnlineBankingSystemDBConnectionString (Settings)" DbObjectName="dbo.MoneyTransfer" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="getrequestIBAN" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="getrequestIBAN" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy2" UserSourceName="getrequestIBAN">
-                <SelectCommand>
-                  <DbCommand CommandType="Text" ModifiedByUser="true">
-                    <CommandText>SELECT        IBAN
-FROM            MoneyTransfer</CommandText>
-                    <Parameters />
-                  </DbCommand>
-                </SelectCommand>
-              </DbSource>
-              <DbSource ConnectionRef="OnlineBankingSystemDBConnectionString (Settings)" DbObjectName="dbo.MoneyTransfer" DbObjectType="Table" GenerateShortCommands="true" GeneratorSourceName="getrequestTranscriptID" Modifier="Public" Name="getrequestTranscriptID" QueryType="Scalar" ScalarCallRetval="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy3" UserSourceName="getrequestTranscriptID">
-                <SelectCommand>
-                  <DbCommand CommandType="Text" ModifiedByUser="true">
-                    <CommandText>SELECT        Id
-FROM            MoneyTransfer</CommandText>
-                    <Parameters />
-                  </DbCommand>
-                </SelectCommand>
-              </DbSource>
             </Sources>
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="MoneyRequestTableAdapter" GeneratorDataComponentClassName="MoneyRequestTableAdapter" Name="MoneyRequest" UserDataComponentName="MoneyRequestTableAdapter">
@@ -408,33 +381,6 @@ WHERE        (UserName = @User)</CommandText>
                   </DbCommand>
                 </SelectCommand>
               </DbSource>
-              <DbSource ConnectionRef="OnlineBankingSystemDBConnectionString (Settings)" DbObjectName="dbo.MoneyRequest" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="getsendAmount" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="getsendAmount" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="getsendAmount">
-                <SelectCommand>
-                  <DbCommand CommandType="Text" ModifiedByUser="true">
-                    <CommandText>SELECT        Amount
-FROM            MoneyRequest</CommandText>
-                    <Parameters />
-                  </DbCommand>
-                </SelectCommand>
-              </DbSource>
-              <DbSource ConnectionRef="OnlineBankingSystemDBConnectionString (Settings)" DbObjectName="dbo.MoneyRequest" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="getsendIBAN" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="getsendIBAN" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy2" UserSourceName="getsendIBAN">
-                <SelectCommand>
-                  <DbCommand CommandType="Text" ModifiedByUser="true">
-                    <CommandText>SELECT        IBAN
-FROM            MoneyRequest</CommandText>
-                    <Parameters />
-                  </DbCommand>
-                </SelectCommand>
-              </DbSource>
-              <DbSource ConnectionRef="OnlineBankingSystemDBConnectionString (Settings)" DbObjectName="dbo.MoneyRequest" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="getsendTranscriptId" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="getsendTranscriptId" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy3" UserSourceName="getsendTranscriptId">
-                <SelectCommand>
-                  <DbCommand CommandType="Text" ModifiedByUser="true">
-                    <CommandText>SELECT        Id
-FROM            MoneyRequest</CommandText>
-                    <Parameters />
-                  </DbCommand>
-                </SelectCommand>
-              </DbSource>
             </Sources>
           </TableAdapter>
         </Tables>
@@ -445,7 +391,7 @@ FROM            MoneyRequest</CommandText>
   <xs:element name="OnlineBankingSystemDBDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="OnlineBankingSystemDBDataset" msprop:Generator_UserDSName="OnlineBankingSystemDBDataset">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="Users" msprop:Generator_TableClassName="UsersDataTable" msprop:Generator_TableVarName="tableUsers" msprop:Generator_TablePropName="Users" msprop:Generator_RowDeletingName="UsersRowDeleting" msprop:Generator_RowChangingName="UsersRowChanging" msprop:Generator_RowEvHandlerName="UsersRowChangeEventHandler" msprop:Generator_RowDeletedName="UsersRowDeleted" msprop:Generator_UserTableName="Users" msprop:Generator_RowChangedName="UsersRowChanged" msprop:Generator_RowEvArgName="UsersRowChangeEvent" msprop:Generator_RowClassName="UsersRow">
+        <xs:element name="Users" msprop:Generator_TableClassName="UsersDataTable" msprop:Generator_TableVarName="tableUsers" msprop:Generator_RowChangedName="UsersRowChanged" msprop:Generator_TablePropName="Users" msprop:Generator_RowDeletingName="UsersRowDeleting" msprop:Generator_RowChangingName="UsersRowChanging" msprop:Generator_RowEvHandlerName="UsersRowChangeEventHandler" msprop:Generator_RowDeletedName="UsersRowDeleted" msprop:Generator_RowClassName="UsersRow" msprop:Generator_UserTableName="Users" msprop:Generator_RowEvArgName="UsersRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
@@ -474,7 +420,7 @@ FROM            MoneyRequest</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Pays" msprop:Generator_TableClassName="PaysDataTable" msprop:Generator_TableVarName="tablePays" msprop:Generator_TablePropName="Pays" msprop:Generator_RowDeletingName="PaysRowDeleting" msprop:Generator_RowChangingName="PaysRowChanging" msprop:Generator_RowEvHandlerName="PaysRowChangeEventHandler" msprop:Generator_RowDeletedName="PaysRowDeleted" msprop:Generator_UserTableName="Pays" msprop:Generator_RowChangedName="PaysRowChanged" msprop:Generator_RowEvArgName="PaysRowChangeEvent" msprop:Generator_RowClassName="PaysRow">
+        <xs:element name="Pays" msprop:Generator_TableClassName="PaysDataTable" msprop:Generator_TableVarName="tablePays" msprop:Generator_RowChangedName="PaysRowChanged" msprop:Generator_TablePropName="Pays" msprop:Generator_RowDeletingName="PaysRowDeleting" msprop:Generator_RowChangingName="PaysRowChanging" msprop:Generator_RowEvHandlerName="PaysRowChangeEventHandler" msprop:Generator_RowDeletedName="PaysRowDeleted" msprop:Generator_RowClassName="PaysRow" msprop:Generator_UserTableName="Pays" msprop:Generator_RowEvArgName="PaysRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
@@ -509,7 +455,7 @@ FROM            MoneyRequest</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="MoneyTransfer" msprop:Generator_TableClassName="MoneyTransferDataTable" msprop:Generator_TableVarName="tableMoneyTransfer" msprop:Generator_RowChangedName="MoneyTransferRowChanged" msprop:Generator_TablePropName="MoneyTransfer" msprop:Generator_RowDeletingName="MoneyTransferRowDeleting" msprop:Generator_RowChangingName="MoneyTransferRowChanging" msprop:Generator_RowEvHandlerName="MoneyTransferRowChangeEventHandler" msprop:Generator_RowDeletedName="MoneyTransferRowDeleted" msprop:Generator_RowClassName="MoneyTransferRow" msprop:Generator_UserTableName="MoneyTransfer" msprop:Generator_RowEvArgName="MoneyTransferRowChangeEvent">
+        <xs:element name="MoneyTransfer" msprop:Generator_TableClassName="MoneyTransferDataTable" msprop:Generator_TableVarName="tableMoneyTransfer" msprop:Generator_TablePropName="MoneyTransfer" msprop:Generator_RowDeletingName="MoneyTransferRowDeleting" msprop:Generator_RowChangingName="MoneyTransferRowChanging" msprop:Generator_RowEvHandlerName="MoneyTransferRowChangeEventHandler" msprop:Generator_RowDeletedName="MoneyTransferRowDeleted" msprop:Generator_UserTableName="MoneyTransfer" msprop:Generator_RowChangedName="MoneyTransferRowChanged" msprop:Generator_RowEvArgName="MoneyTransferRowChangeEvent" msprop:Generator_RowClassName="MoneyTransferRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
@@ -538,7 +484,7 @@ FROM            MoneyRequest</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="MoneyRequest" msprop:Generator_TableClassName="MoneyRequestDataTable" msprop:Generator_TableVarName="tableMoneyRequest" msprop:Generator_RowChangedName="MoneyRequestRowChanged" msprop:Generator_TablePropName="MoneyRequest" msprop:Generator_RowDeletingName="MoneyRequestRowDeleting" msprop:Generator_RowChangingName="MoneyRequestRowChanging" msprop:Generator_RowEvHandlerName="MoneyRequestRowChangeEventHandler" msprop:Generator_RowDeletedName="MoneyRequestRowDeleted" msprop:Generator_RowClassName="MoneyRequestRow" msprop:Generator_UserTableName="MoneyRequest" msprop:Generator_RowEvArgName="MoneyRequestRowChangeEvent">
+        <xs:element name="MoneyRequest" msprop:Generator_TableClassName="MoneyRequestDataTable" msprop:Generator_TableVarName="tableMoneyRequest" msprop:Generator_TablePropName="MoneyRequest" msprop:Generator_RowDeletingName="MoneyRequestRowDeleting" msprop:Generator_RowChangingName="MoneyRequestRowChanging" msprop:Generator_RowEvHandlerName="MoneyRequestRowChangeEventHandler" msprop:Generator_RowDeletedName="MoneyRequestRowDeleted" msprop:Generator_UserTableName="MoneyRequest" msprop:Generator_RowChangedName="MoneyRequestRowChanged" msprop:Generator_RowEvArgName="MoneyRequestRowChangeEvent" msprop:Generator_RowClassName="MoneyRequestRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />

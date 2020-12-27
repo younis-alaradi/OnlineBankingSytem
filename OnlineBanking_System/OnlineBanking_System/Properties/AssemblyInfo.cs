@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("OnlineBanking_System")]
-[assembly: AssemblyDescription("Project By The ITIS 241 Group 3")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("UOB")]
-[assembly: AssemblyProduct("Online Banking System")]
-[assembly: AssemblyCopyright("Copyright © UOB")]
-[assembly: AssemblyTrademark("University Of Bahrain")]
+[assembly: AssemblyCompany("HP Inc.")]
+[assembly: AssemblyProduct("OnlineBanking_System")]
+[assembly: AssemblyCopyright("Copyright © HP Inc. 2020")]
+[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
